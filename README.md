@@ -1,4 +1,4 @@
 # IntaJava
 Elektroniskā klade
-**otrā iespēja savienoties
-Lielais fails
+**otrais virsrakts
+Klades aizpildišana
