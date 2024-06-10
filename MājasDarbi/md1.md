@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Mājas darbs 1</title>
+
 </head>
 <body>
 
-<h1 style="background-color:DodgerBlue;">JavaScript pētijums</h1>
+<h1 style="border:2px solid Tomato;">JavaScript pētijums</h1>
 <p>ar mainīgo izmantošanu</p>
 <h4>"var" atradu RTU mājas lapā</h4>
 <img src="var.jpg" >
