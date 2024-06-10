@@ -8,7 +8,7 @@
 <h1>JavaScript pētijums</h1>
 <p>ar mainīgo izmantošanu</p>
 <h4>"var" atradu ....</h4>
-<img src="var.jpg" width="500" height="333">
+<img src="var.jpg" >
 
 </body>
 </html>
