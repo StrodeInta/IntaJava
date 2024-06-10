@@ -5,7 +5,7 @@
 </head>
 <body>
 
-<h1 style="border:2px solid Tomato;">JavaScript pētijums</h1>
+<h1 style="background-color:rgb(255, 0, 0);">JavaScript pētijums</h1>
 <p>ar mainīgo izmantošanu</p>
 <h4>"var" atradu RTU mājas lapā</h4>
 <img src="var.jpg" >
