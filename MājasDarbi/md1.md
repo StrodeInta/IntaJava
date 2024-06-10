@@ -16,15 +16,15 @@
 
 <p>dažādu metožu izmantošanu saistībā ar masīviem</p>
 <h4>Pirmais variants </h4>
-<img scr="pirma.jpg">
+<img src="pirma.jpg">
 
 <h4>Otrais variants </h4>
-<img scr="otrais.jpg">
+<img src="otrais.jpg">
 
 <h4>Trešais variants </h4>
-<img scr="tresa.jpg">
+<img src="tresa.jpg">
 
 <h4>Ceturtais variants </h4>
-<img scr="ceturta.jpg">
+<img src="ceturta.jpg">
 </body>
 </html>
