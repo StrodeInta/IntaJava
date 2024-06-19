@@ -54,6 +54,7 @@ setTimeout(() => {
     jsWindow.close();
 }, 10000);
 */
+
 /*
 setTimeout(() => {
     alert('2 seconds has been passed!')
@@ -64,6 +65,7 @@ setTimeout(() => {
 }, 1000);
 */
 
+/*
 let result_c = confirm('Vai dzēst izvēlēto saturu?');
 let message_c = result_c ? 'Jūs teicāt - jā' : 'Jūs teicāt - nē';
 alert(message_c);
@@ -73,3 +75,43 @@ let message_p = result_p ? 'Šobrīd ir '+result_p+'. gads' : '???. gads';
 alert(message_p);
 
 console.log(result_p * result_p);
+
+let lang = prompt('What is your favorite programming language?');
+
+let feedback = lang.toLowerCase() === 'javascript' ? `It's great!` :  `It's ${lang}`;
+
+alert(feedback);
+*/
+
+var timeoutID;
+
+function showAlert() {
+    timeoutID = setTimeout(alert, 3000, 'setTimeout Demo!');
+    console.log(timeoutID);
+}
+
+function cancelAlert() {
+    clearTimeout(timeoutID);
+}
+
+
+
+let intervalID;
+let startBtn = document.getElementById('start');
+ 
+function toggleColor() {
+  let e = document.getElementById('flashtext');
+  e.style.color = e.style.color == 'red' ? 'blue' : 'red';
+}
+
+function stop() {
+    console.log(intervalID); 
+  clearInterval(intervalID);
+  startBtn.disabled = false;
+}
+
+function start() {
+   intervalID = setInterval(toggleColor, 1000); 
+   console.log(intervalID);
+   startBtn.disabled = true;
+}

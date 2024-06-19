@@ -38,6 +38,9 @@
 <p>ar pārslēgšanas operatora (switch) izmantošanu</p>
 <h4 style="color:red;">"switch" atradu 1a.lv</h4>
 <h6>switch (pārslēgšanās, pārlēkšanas) konstrukcija. Šāda veida konstrukciju parasti izmanto, lai pārslēgtos starp ļoti dažādiem, savstarpēji nesaistītiem nosacījumiem. Parasti šīs konstrukcijas var izveidot arī ar iepriekš aprakstīto ja…, citādi ja…, citādi… konstrukciju, tomēr tādā gadījumā ir jāizmanto daudz vairāk „nevajadzīgu” koda daļu, kas padara- 19 JavaScript kodu apjomīgāku un tā lejupielādēšanu un izpildes laiku ilgāku.</h6>
+<h2>šo paraugu atradu gismeteo mājas lapā</h2>
 <img src="switch.jpg">
+<h4>Sev paraugu atraadu izmantojot ChatGPT</h4>>
+<img src="switch paraugs.jpg">
 </body>
 </html>
