@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Append Child Example</title>
+</head>
+<body>
+    <h1>Piemērs: Izmantojot appendChild()</h1>
+    <ul id="myList">
+        <li>Pirmais elements</li>
+        <li>Otrais elements</li>
+    </ul>
+
+    <script>
+
+        let newListItem = document.createElement('li');
+        let newTextNode = document.createTextNode('Trešais elements');
+
+        newListItem.appendChild(newTextNode);
+
+        let ulElement = document.getElementById('myList');
+        ulElement.appendChild(newListItem);
+
+        let newDiv = document.createElement('div');
+        newDiv.id = 'myNewDiv';
+        newDiv.className = 'myClass';
+        newDiv.textContent = 'Sveika, pasaule!';
+        document.body.appendChild(newDiv);
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>InnerHTML Piemērs</title>
+</head>
+<body>
+    <h1>Piemērs: Izmantojot innerHTML</h1>
+    <ul id="myList">
+        <li>Pirmais elements</li>
+        <li>Otrais elements</li>
+    </ul>
+
+    <button onclick="addListItem()">Pievienot saraksta elementu</button>
+
+    <script>
+        function addListItem() {
+            let ulElement = document.getElementById('myList');
+            ulElement.innerHTML += '<li>Jauns elements</li>';
+        }
+    </script>
+</body>
+</html>
