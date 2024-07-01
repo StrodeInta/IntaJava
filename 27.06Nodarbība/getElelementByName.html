@@ -1,0 +1,96 @@
+<!-- https://www.javascripttutorial.net/javascript-dom/javascript-getelementsbyname/ -->
+<!-- https://www.javascripttutorial.net/javascript-dom/javascript-getelementsbytagname/ -->
+<!-- https://www.javascripttutorial.net/javascript-dom/javascript-getelementsbyclassname/ -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>JavaScript getElementsByName Demo</title>
+</head>
+
+<body>
+    <p>Please rate the service:</p>
+    <p>
+        <label for="very-poor">
+            <input type="radio" name="rate" value="Very poor" id="very-poor"> Very poor
+        </label>
+        <label for="poor">
+            <input type="radio" name="rate" value="Poor" id="poor"> Poor
+        </label>
+        <label for="ok">
+            <input type="radio" name="rate" value="OK" id="ok"> OK
+        </label>
+        <label for="good">
+            <input type="radio" name="rate" value="Good"> Good
+        </label>
+        <label for="very-good">
+            <input type="radio" name="rate" value="Very Good" id="very-good"> Very Good
+        </label>
+    </p>
+    <p>
+        <button id="btnRate">Submit</button>
+    </p>
+    <p id="output"></p>
+
+    <header>
+        <nav>
+            <ul id="menu">
+                <li class="item">HTML</li>
+                <li class="item">CSS</li>
+                <li class="item highlight">JavaScript</li>
+                <li class="item">TypeScript</li>
+            </ul>
+        </nav>
+        <h1>getElementsByClassName Demo</h1>
+    </header>
+    <section>
+        <article>
+            <h2 class="secondary">Example 1</h2>
+        </article>
+        <article>
+            <h2 class="secondary">Example 2</h2>
+        </article>
+    </section>
+
+
+
+    <script>
+        let btn = document.getElementById('btnRate');
+        let output = document.getElementById('output');
+
+        let rates = document.getElementsByName('rate');        
+
+        btn.addEventListener('click', () => {
+            let rates = document.getElementsByName('rate');
+            rates.forEach((rate) => {
+                console.log(rate);
+                console.log(rate.checked);
+                if (rate.checked) {
+                    output.innerText = `You selected: ${rate.value}`;
+                }
+            });
+
+        });
+
+            btn.addEventListener('dblclick', () => {
+            let choices = document.getElementsByTagName('label');
+            alert(`You have ${choices.length} choices`);
+        });
+
+
+        output.addEventListener('mouseover', () => {
+            window.alert("A-a-a-a-a-a-a-a!!! Don't touch me!");
+            });
+
+        console.log(document.getElementById('menu').getElementsByClassName('item').length);
+        console.log(document.getElementById('menu').getElementsByClassName('highlight').length);
+        console.log(document.getElementById('menu').getElementsByClassName('item highlight').length);
+        console.log(document.getElementById('menu').getElementsByClassName('highlight item').length);
+
+
+</script>
+</body>
+
+</html>
