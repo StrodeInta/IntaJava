@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>innerHTML vs createElement() piemērs</title>
+<style>
+  #container {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+</style>
+</head>
+<body>
+
+<div id="container">
+</div>
+
+<button onclick="useInnerHTML()">Izmantot innerHTML</button>
+<button onclick="useCreateElement()">Izmantot createElement()</button>
+
+<script>
+function useInnerHTML() {
+  const container = document.getElementById('container');
+  container.innerHTML = '<p>Lietošana: Iestatot element.innerHTML, jūs tieši manipulējat HTML saturu šajā elementā. Tas nozīmē, ka jūs varat iestatīt jaunu HTML marķējuma virkni, un pārlūkprogramma to analizēs un attēlos atbilstoši.</p>';
+}
+
+// Funkcija, kas izveido un ievieto jaunu elementu izmantojot createElement()
+function useCreateElement() {
+  const paragraph = document.createElement('p');
+  paragraph.textContent = 'Lietošana: Atšķirībā no innerHTML, createElement() ļauj programmēšanas ceļā izveidot jaunus elementus DOM koka ietvaros. Tad jūs varat manipulēt šiem elementiem (piemēram, iestatīt atribūtus, pievienot tekstu vai bērnu elementus), pirms tos ievietojat dokumentā.';
+
+  const container = document.getElementById('container');
+  container.appendChild(paragraph);
+}
+</script>
+
+</body>
+</html>
