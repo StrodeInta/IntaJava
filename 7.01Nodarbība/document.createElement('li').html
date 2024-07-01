@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create List Items Example</title>
+</head>
+<body>
+    <h1>Piemērs: Jaunu Saraksta Elementu Izveide</h1>
+    <ul id="myList">
+        <li>Pirmais elements</li>
+        <li>Otrais elements</li>
+    </ul>
+
+    <script>
+        function addListItem(content) {
+
+            let newListItem = document.createElement('li');
+
+            newListItem.textContent = content;
+
+            let ulElement = document.getElementById('myList');
+            ulElement.appendChild(newListItem);
+        }
+
+        addListItem('Trešais elements');
+        addListItem('Ceturtais elements');
+    </script>
+</body>
+</html>
