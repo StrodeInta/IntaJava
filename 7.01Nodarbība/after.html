@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JavaScript after() metodes piemērs</title>
+<style> /* CSS stils tikai dekoratīvai vizuālai attēlošanai */
+  .reference {
+    background-color: #abe6fc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .new-element {
+    background-color: #b8ff9f;
+    padding: 10px;
+    margin-left: 10px;
+  }
+</style>
+</head>
+<body>
+
+<div id="referenceElement" class="reference">Šis ir atsauce</div>
+
+<script>
+  var newElement = document.createElement('span');
+  newElement.textContent = 'Šis ir jaunais elements';
+  newElement.classList.add('new-element');
+  var referenceElement = document.getElementById('referenceElement');
+  referenceElement.after(newElement);
+</script>
+
+</body>
+</html>

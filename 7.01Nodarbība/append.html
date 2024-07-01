@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JavaScript append() metodes piemērs</title>
+<style> /* CSS stils tikai dekoratīvai vizuālai attēlošanai */
+  .parent {
+    background-color: #c8dffc;
+    padding: 30px;
+    margin-bottom: 10px;
+  }
+  .child {
+    background-color: #e69aff;
+    padding: 20px;
+    margin-left: 10px;
+  }
+</style>
+</head>
+<body>
+
+<div id="parentElement" class="parent">Vecāka elements</div>
+
+<script>
+  var newDiv = document.createElement('div');
+  newDiv.textContent = 'Jauns div elements';
+  newDiv.classList.add('child');
+
+  var newSpan = document.createElement('span');
+  newSpan.textContent = 'Jauns span elements';
+  newSpan.classList.add('child');
+
+  var parentElement = document.getElementById('parentElement');
+  
+ //let app = document.querySelector('#app');
+//app.append('append() Text Demo');
+//console.log(app.textContent); 
+
+  parentElement.append(newDiv, newSpan);
+</script>
+
+</body>
+</html>
