@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>JavaScript insertAfter() Demo</title>
+</head>
+<body>
+    <ul id="menu">
+        <li>Adrese</li>
+        <li>Vārds Uzvārds</li>
+        <li>Telefona numurs</li>
+    </ul>
+    <script>
+        function insertAfter(newNode, existingNode) {
+            existingNode.parentNode.insertBefore(newNode, existingNode.nextSibling);
+        }
+
+        let menu = document.getElementById('menu');
+        // create a new li node
+        let li = document.createElement('li');
+        li.textContent = 'cits';
+        insertAfter(li,  menu.lastElementChild);
+    </script>
+</body>
+
+</html>
