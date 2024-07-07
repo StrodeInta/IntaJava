@@ -1,4 +1,6 @@
 # Izlaušanās! Spēle
+<h4 style="color:red;">Trešais variants </h4>
+<img src="izlausanasspele.jpg">
 
 ## Projekta specifikācijas
 
