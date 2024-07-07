@@ -17,6 +17,7 @@
 ## Mainīgie
 ### DOM elementi:
 - rulesBtn, closeBtn, rules, canvas, ctx: Šie mainīgie glabā atsauces uz HTML elementiem, kas ļauj interaktēt ar DOM un veikt grafiskās operācijas uz <canvas> elementa.
+<img src="html analize.jpg">
 
 ### Spēles stāvokļa mainīgie:
 - score: Glabā spēlētāja punktu skaitu.
