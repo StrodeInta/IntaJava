@@ -1,6 +1,4 @@
-## Izlaušanās! Spēle
-
-Labi! Mēs izveidosim Breakout spēli, kurā jūs kontrolējat lāpstiņu ar bultiņu taustiņiem, lai atsistos bumbu un iznīcinātu ķieģeļus. Šī spēle izmantos HTML5 canvas elementu un API.
+# Izlaušanās! Spēle
 
 ## Projekta specifikācijas
 
