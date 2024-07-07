@@ -49,58 +49,57 @@ Nosacījuma operatori tiek plaši izmantoti, lai kontrolētu spēles loģiku:
 ## Cikla operatori
 Cikla operatori tiek izmantoti, lai iterētu caur ķieģeļiem un veiktu zīmēšanas vai sadursmes pārbaudes:
 
-Ķieģeļu ģenerēšana:
+### Ķieģeļu ģenerēšana:
+- for (let i = 0; i < brickRowCount; i++) { ... }
+- for (let j = 0; j < brickColumnCount; j++) { ... }
 
-for (let i = 0; i < brickRowCount; i++) { ... }
-for (let j = 0; j < brickColumnCount; j++) { ... }
-Sadursmes un zīmēšanas funkcijas:
+### Sadursmes un zīmēšanas funkcijas:
+- bricks.forEach(column => { column.forEach(brick => { ... }) })
 
-bricks.forEach(column => { column.forEach(brick => { ... }) })
-Funkcijas
-Zīmēšanas funkcijas:
+## Funkcijas
+### Zīmēšanas funkcijas:
+- drawBall(): Zīmē bumbu.
+- drawPaddle(): Zīmē lāpstiņu.
+- drawScore(): Zīmē punktus.
+- drawBricks(): Zīmē ķieģeļus.
 
-drawBall(): Zīmē bumbu.
-drawPaddle(): Zīmē lāpstiņu.
-drawScore(): Zīmē punktus.
-drawBricks(): Zīmē ķieģeļus.
-Kustības funkcijas:
+### Kustības funkcijas:
+- movePaddle(): Pārvieto lāpstiņu atkarībā no klaviatūras ievades.
+- moveBall(): Pārvieto bumbu un pārbauda sadursmes ar sienām, lāpstiņu un ķieģeļiem.
 
-movePaddle(): Pārvieto lāpstiņu atkarībā no klaviatūras ievades.
-moveBall(): Pārvieto bumbu un pārbauda sadursmes ar sienām, lāpstiņu un ķieģeļiem.
-Spēles loģika:
+### Spēles loģika:
+- increaseScore(): Palielina punktus un pārbauda, vai visi ķieģeļi ir iznīcināti, lai restartētu spēli.
+- showAllBricks(): Parāda visus ķieģeļus.
+- draw(): Galvenā funkcija, kas zīmē un atjauno spēles stāvokli.
+- update(): Atjauno spēles animāciju.
 
-increaseScore(): Palielina punktus un pārbauda, vai visi ķieģeļi ir iznīcināti, lai restartētu spēli.
-showAllBricks(): Parāda visus ķieģeļus.
-draw(): Galvenā funkcija, kas zīmē un atjauno spēles stāvokli.
-update(): Atjauno spēles animāciju.
-Notikumu klausītāji:
+### Notikumu klausītāji:
+- keyDown(e): Apstrādā bultiņu taustiņu nospiešanu.
+- keyUp(e): Apstrādā bultiņu taustiņu atlaišanu.
+- document.addEventListener('keydown', keyDown): Pievieno klausītāju klaviatūras taustiņu nospiešanai.
+- document.addEventListener('keyup', keyUp): Pievieno klausītāju klaviatūras taustiņu atlaišanai.
+- rulesBtn.addEventListener('click', () => rules.classList.add('show')): Pievieno klausītāju noteikumu pogai.
+- closeBtn.addEventListener('click', () => rules.classList.remove('show')): Pievieno klausītāju aizvēršanas pogai.
 
-keyDown(e): Apstrādā bultiņu taustiņu nospiešanu.
-keyUp(e): Apstrādā bultiņu taustiņu atlaišanu.
-document.addEventListener('keydown', keyDown): Pievieno klausītāju klaviatūras taustiņu nospiešanai.
-document.addEventListener('keyup', keyUp): Pievieno klausītāju klaviatūras taustiņu atlaišanai.
-rulesBtn.addEventListener('click', () => rules.classList.add('show')): Pievieno klausītāju noteikumu pogai.
-closeBtn.addEventListener('click', () => rules.classList.remove('show')): Pievieno klausītāju aizvēršanas pogai.
-Darbību secība (algoritms, biznesa loģika)
-Inicializācija:
+## Darbību secība (algoritms, biznesa loģika)
+### Inicializācija:
+- Inicializē mainīgos un iestata sākotnējos spēles parametrus (bumbas, lāpstiņas pozīcijas, ķieģeļi).
 
-Inicializē mainīgos un iestata sākotnējos spēles parametrus (bumbas, lāpstiņas pozīcijas, ķieģeļi).
-Notikumu klausītāji:
+### Notikumu klausītāji:
+- Pievieno klausītājus bultiņu taustiņu nospiešanai un atlaišanai.
+- Pievieno klausītājus noteikumu pogai, lai parādītu vai paslēptu spēles noteikumus.
 
-Pievieno klausītājus bultiņu taustiņu nospiešanai un atlaišanai.
-Pievieno klausītājus noteikumu pogai, lai parādītu vai paslēptu spēles noteikumus.
-Zīmēšanas funkcijas:
+### Zīmēšanas funkcijas:
+- Definē funkcijas bumbas, lāpstiņas, ķieģeļu un punktu zīmēšanai.
 
-Definē funkcijas bumbas, lāpstiņas, ķieģeļu un punktu zīmēšanai.
-Sadursmes detektēšana:
+### Sadursmes detektēšana:
+- moveBall() funkcija pārbauda sadursmes starp bumbu un ķieģeļiem vai lāpstiņu.
 
-moveBall() funkcija pārbauda sadursmes starp bumbu un ķieģeļiem vai lāpstiņu.
-Galvenā zīmēšanas un spēles loģikas funkcija:
+### Galvenā zīmēšanas un spēles loģikas funkcija:
+- draw() funkcija zīmē visus spēles elementus un atjauno bumbas un lāpstiņas pozīcijas.
 
-draw() funkcija zīmē visus spēles elementus un atjauno bumbas un lāpstiņas pozīcijas.
-Animācija:
-
-requestAnimationFrame(update) nodrošina nepārtrauktu spēles animāciju, izsaucot update() funkciju katrā kadru.
+### Animācija:
+- requestAnimationFrame(update) nodrošina nepārtrauktu spēles animāciju, izsaucot update() funkciju katrā kadru.
 
 ## Kopējā struktūra
 Kods ir labi strukturēts, ar skaidri definētām funkcijām, kas atbild par konkrētiem uzdevumiem. Tas ļauj viegli saprast un uzturēt spēles loģiku. Funkcijas ir sadalītas tā, lai katra atbildētu par noteiktu uzdevumu, piemēram, zīmēšanu, kustību vai sadursmju noteikšanu, kas padara kodu modulāru un atkārtoti lietojamu.
