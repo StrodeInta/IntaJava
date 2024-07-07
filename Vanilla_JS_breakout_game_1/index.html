@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breakout Spēle</title>
+    <style>
+        canvas {
+            display: block;
+            margin: 0 auto;
+            background: #eee;
+            border: 1px solid #000;
+        }
+        #rules {
+            display: none;
+            margin: 10px auto;
+            padding: 10px;
+            width: 300px;
+            background: #fff;
+            border: 1px solid #000;
+        }
+        #rulesButton {
+            display: block;
+            margin: 10px auto;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="canvas" width="480" height="320"></canvas>
+    <button id="rulesButton">Noteikumi</button>
+    <div id="rules">
+        <h2>Spēles Noteikumi</h2>
+        <p>Izmantojiet bultiņu taustiņus, lai pārvietotu lāpstiņu pa kreisi un pa labi. Atsitiet bumbu pret ķieģeļiem, lai tos iznīcinātu un iegūtu punktus. Ja bumba izkrīt ārpus apakšas, jūs zaudējat spēli.</p>
+    </div>
+    <script src="breakout.js"></script>
+</body>
+</html>
