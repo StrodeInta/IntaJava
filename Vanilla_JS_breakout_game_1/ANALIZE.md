@@ -1,13 +1,13 @@
 # JS koda "audits"
 ## Mainīgie
-canvas: DOM elements. Norāda uz <canvas> elementu.
-ctx: CanvasRenderingContext2D objekts. Nodrošina metodes un īpašības, lai zīmētu 2D kontekstā.
-paddleHeight, paddleWidth, paddleX: Mainīgie lāpstiņas izmēra un pozīcijas glabāšanai.
-x, y, ballRadius, dx, dy: Mainīgie bumbas koordinātu un kustības vektoru glabāšanai.
-brickRowCount, brickColumnCount, brickWidth, brickHeight, brickPadding, brickOffsetTop, brickOffsetLeft: Mainīgie ķieģeļu izmēra, novietojuma un skaita glabāšanai.
-bricks: Masīvs, kas satur ķieģeļu objektus.
-score: Mainīgais punktu skaita glabāšanai.
-rightPressed, leftPressed: Mainīgie, kas seko, vai bultiņu taustiņi ir nospiesti.
+- canvas: DOM elements. Norāda uz <canvas> elementu.
+- ctx: CanvasRenderingContext2D objekts. Nodrošina metodes un īpašības, lai zīmētu 2D kontekstā.
+- paddleHeight, paddleWidth, paddleX: Mainīgie lāpstiņas izmēra un pozīcijas glabāšanai.
+- x, y, ballRadius, dx, dy: Mainīgie bumbas koordinātu un kustības vektoru glabāšanai.
+- brickRowCount, brickColumnCount, brickWidth, brickHeight, brickPadding, brickOffsetTop, brickOffsetLeft: Mainīgie ķieģeļu izmēra, novietojuma un skaita glabāšanai.
+- bricks: Masīvs, kas satur ķieģeļu objektus.
+- score: Mainīgais punktu skaita glabāšanai.
+- rightPressed, leftPressed: Mainīgie, kas seko, vai bultiņu taustiņi ir nospiesti.
 ## Nosacījuma operatori
 if (e.key === 'Right' || e.key === 'ArrowRight'): Pārbauda, vai nospiesta labā bultiņa.
 if (e.key === 'Left' || e.key === 'ArrowLeft'): Pārbauda, vai nospiesta kreisā bultiņa.
