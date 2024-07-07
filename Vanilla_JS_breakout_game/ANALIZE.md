@@ -27,11 +27,9 @@ brickRowCount, brickColumnCount, delay: Glabā ķieģeļu izvietojuma un spēles
 ### Objekti:
 - ball: Glabā bumbas īpašības, piemēram, pozīciju, izmēru, ātrumu un redzamību.
 - paddle: Glabā lāpstiņas īpašības, piemēram, pozīciju, izmēru, ātrumu un redzamību.
+<img src="js_1.jpg">
 - brickInfo: Glabā ķieģeļu īpašības, piemēram, izmēru, nobīdi un redzamību.
 - bricks: Masīvs, kas satur ķieģeļu objektus, kuri tiek ģenerēti sākotnēji un tiek atjaunināti spēles laikā.
-
-<img src="js_1.jpg">
-
 <img src="js_2.jpg">
 
 ## Nosacījuma operatori
