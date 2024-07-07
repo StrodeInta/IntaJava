@@ -22,12 +22,15 @@
 ### Spēles stāvokļa mainīgie:
 - score: Glabā spēlētāja punktu skaitu.
 brickRowCount, brickColumnCount, delay: Glabā ķieģeļu izvietojuma un spēles restartēšanas laika iestatījumus.
+<img src="js_2.jpg">
 
 ### Objekti:
 - ball: Glabā bumbas īpašības, piemēram, pozīciju, izmēru, ātrumu un redzamību.
 - paddle: Glabā lāpstiņas īpašības, piemēram, pozīciju, izmēru, ātrumu un redzamību.
 - brickInfo: Glabā ķieģeļu īpašības, piemēram, izmēru, nobīdi un redzamību.
 - bricks: Masīvs, kas satur ķieģeļu objektus, kuri tiek ģenerēti sākotnēji un tiek atjaunināti spēles laikā.
+<img src="js_1.jpg">
+<img src="js_2.jpg">
 
 ## Nosacījuma operatori
 Nosacījuma operatori tiek plaši izmantoti, lai kontrolētu spēles loģiku:
@@ -36,6 +39,7 @@ Nosacījuma operatori tiek plaši izmantoti, lai kontrolētu spēles loģiku:
 - if (e.key === 'Right' || e.key === 'ArrowRight'): Pārbauda, vai ir nospiesta labā bultiņa, lai pārvietotu lāpstiņu pa labi.
 - if (e.key === 'Left' || e.key === 'ArrowLeft'): Pārbauda, vai ir nospiesta kreisā bultiņa, lai pārvietotu lāpstiņu pa kreisi.
 - if (e.key === 'Right' || e.key === 'ArrowRight' || e.key === 'Left' || e.key === 'ArrowLeft'): Pārbauda, vai ir atlaižot bultiņu taustiņi.
+<img src="js_8.jpg">
 
 ### Sadursmes detektēšana:
 - if (ball.x + ball.size > canvas.width || ball.x - ball.size < 0): Pārbauda, vai bumba atsitas pret sānu sienām.
@@ -43,9 +47,12 @@ Nosacījuma operatori tiek plaši izmantoti, lai kontrolētu spēles loģiku:
 - if (ball.x - ball.size > paddle.x && ball.x + ball.size < paddle.x + paddle.w && ball.y + ball.size > paddle.y): Pārbauda, vai bumba atsitas pret lāpstiņu.
 - if (brick.visible): Pārbauda, vai ķieģelis ir redzams un vai tam ir notikusi sadursme ar bumbu.
 - if (score % (brickRowCount * brickColumnCount) === 0): Pārbauda, vai visi ķieģeļi ir iznīcināti.
+<img src="js_5.jpg">
 
 ### Spēles beigas:
 - if (ball.y + ball.size > canvas.height): Pārbauda, vai bumba sasniedz apakšējo robežu, kas norāda uz zaudējumu.
+<img src="js_6.jpg">
+<img src="js_7.jpg">
 
 ## Cikla operatori
 Cikla operatori tiek izmantoti, lai iterētu caur ķieģeļiem un veiktu zīmēšanas vai sadursmes pārbaudes:
@@ -53,9 +60,11 @@ Cikla operatori tiek izmantoti, lai iterētu caur ķieģeļiem un veiktu zīmē�
 ### Ķieģeļu ģenerēšana:
 - for (let i = 0; i < brickRowCount; i++) { ... }
 - for (let j = 0; j < brickColumnCount; j++) { ... }
+<img src="js_2.jpg">
 
 ### Sadursmes un zīmēšanas funkcijas:
 - bricks.forEach(column => { column.forEach(brick => { ... }) })
+<img src="js_3.jpg">
 
 ## Funkcijas
 ### Zīmēšanas funkcijas:
@@ -63,10 +72,14 @@ Cikla operatori tiek izmantoti, lai iterētu caur ķieģeļiem un veiktu zīmē�
 - drawPaddle(): Zīmē lāpstiņu.
 - drawScore(): Zīmē punktus.
 - drawBricks(): Zīmē ķieģeļus.
+<img src="js_2.jpg">
+<img src="js_3.jpg">
+<img src="js_7.jpg">
 
 ### Kustības funkcijas:
 - movePaddle(): Pārvieto lāpstiņu atkarībā no klaviatūras ievades.
 - moveBall(): Pārvieto bumbu un pārbauda sadursmes ar sienām, lāpstiņu un ķieģeļiem.
+<img src="js_4.jpg">
 
 ### Spēles loģika:
 - increaseScore(): Palielina punktus un pārbauda, vai visi ķieģeļi ir iznīcināti, lai restartētu spēli.
