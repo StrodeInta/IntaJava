@@ -1,12 +1,12 @@
-1. Create canvas context 
-2. Create and draw ball 
-3. Create and draw paddle 
-4. Create bricks 
-5. Draw score 
-6. Add update() - Animate - requestAnimationFrame(cb) 
-7. Move paddle 
-8. Keyboard event handlers to move paddle 
-9. Move ball 
-10. Add wall bounderies 
-11. Increase score when bricks break
-12. Lose - redraw bricks, reset score
+1. Izveidojiet audekla kontekstu
+2. Izveidojiet un uzzīmējiet bumbu
+3. Izveidojiet un uzzīmējiet lāpstiņu
+4. Izveidojiet ķieģeļus
+5. Izlozes rezultāts
+6. Pievienot atjauninājumu() — Animate — requestAnimationFrame(cb)
+7. Pārvietojiet lāpstiņu
+8. Tastatūras notikumu apstrādātāji, lai pārvietotu lāpstiņu
+9. Pārvietojiet bumbu
+10. Pievienojiet sienu robežas
+11. Palieliniet punktu skaitu, kad ķieģeļi saplīst
+12. Zaudēt - pārzīmēt ķieģeļus, atiestatīt rezultātu
