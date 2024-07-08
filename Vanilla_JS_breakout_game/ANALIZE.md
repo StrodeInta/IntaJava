@@ -105,7 +105,7 @@ Cikla operatori tiek izmantoti, lai iterētu caur ķieģeļiem un veiktu zīmē�
 <h4>DOM elementu iegūšanas un sākotnējās spēles stāvokļa konfigurēšanas. Šeit ir kods, kas attiecas uz inicializācijas procesu:</h4>
 <h4>Bumbas īpašības</h4>
 <h4>Lāpstiņas īpašības</h4>
-<img src="js_1.jpg">
+<img src="JS_1.jpg">
 <h4>Ķieģeļu īpašības</h4>
 <h4>Ķieģeļu ģenerēšana</h4>
 <img src="js_2.jpg">
