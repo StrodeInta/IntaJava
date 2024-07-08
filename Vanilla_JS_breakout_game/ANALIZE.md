@@ -4,13 +4,13 @@
 
 ## Projekta specifikācijas
 
--Zīmēt elementus uz audekla
--Izmantot audekla ceļus, lai zīmētu formas
--Pievienot animāciju ar requestAnimationFrame(cb)
--Pārvietot lāpstiņu, izmantojot bultiņu taustiņus
--Pievienot sadursmju noteikšanu
--Saglabāt punktus
--Pievienot noteikumu pogu ar slīdni
+- Zīmēt elementus uz audekla
+- Izmantot audekla ceļus, lai zīmētu formas
+- Pievienot animāciju ar requestAnimationFrame(cb)
+- Pārvietot lāpstiņu, izmantojot bultiņu taustiņus
+- Pievienot sadursmju noteikšanu
+- Saglabāt punktus
+- Pievienot noteikumu pogu ar slīdni
 
 # JS koda "audits"
 
@@ -86,6 +86,8 @@ Cikla operatori tiek izmantoti, lai iterētu caur ķieģeļiem un veiktu zīmē�
 - showAllBricks(): Parāda visus ķieģeļus.
 - draw(): Galvenā funkcija, kas zīmē un atjauno spēles stāvokli.
 - update(): Atjauno spēles animāciju.
+<img src="js_6.jpg">
+<img src="js_7.jpg">
 
 ### Notikumu klausītāji:
 - keyDown(e): Apstrādā bultiņu taustiņu nospiešanu.
@@ -94,6 +96,7 @@ Cikla operatori tiek izmantoti, lai iterētu caur ķieģeļiem un veiktu zīmē�
 - document.addEventListener('keyup', keyUp): Pievieno klausītāju klaviatūras taustiņu atlaišanai.
 - rulesBtn.addEventListener('click', () => rules.classList.add('show')): Pievieno klausītāju noteikumu pogai.
 - closeBtn.addEventListener('click', () => rules.classList.remove('show')): Pievieno klausītāju aizvēršanas pogai.
+<img src="js_8.jpg">
 
 ## Darbību secība (algoritms, biznesa loģika)
 ### Inicializācija:
