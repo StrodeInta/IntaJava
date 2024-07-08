@@ -43,14 +43,20 @@
 <img src="switch paraugs.jpg">
 
 <p>ar cikla operatora (for) izmantošanu</p>
-<img src="MājasDarbi/JPG/Cikla operators (for).jpg">
+<img src="Cikla operators (for).jpg">
 
 <p>ar cikla operatora (while) izmantošanu</p>
+
 <p>ar funkcijas definēšanu (klasiskais paņēmiens - function vārds(argumenti) {darbības; return ...;})</p>
+
 <p>ar funkcijas definēšanu (anonīma funkcija)</p>
+
 <p>ar funkcijas definēšanu (anonīmas funkcijas nosaukšana ar piešķiršanu)</p>
+
 <p>ar funkcijas definēšanu (ar => paņēmienu)</p>
+
 <p>ar funkcijas izsaukšanu (darbināšanu)</p>
+
 <p>ar pagaidu papildu references izveidošanu eksistējošam objektam - kompaktākai rakstīšanai </p>
 
 </body>
