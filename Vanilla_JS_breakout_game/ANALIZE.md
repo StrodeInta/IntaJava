@@ -113,18 +113,28 @@ Cikla operatori tiek izmantoti, lai iterētu caur ķieģeļiem un veiktu zīmē�
 ### Notikumu klausītāji:
 - Pievieno klausītājus bultiņu taustiņu nospiešanai un atlaišanai.
 - Pievieno klausītājus noteikumu pogai, lai parādītu vai paslēptu spēles noteikumus.
+<img src="js_8.jpg">
 
 ### Zīmēšanas funkcijas:
 - Definē funkcijas bumbas, lāpstiņas, ķieģeļu un punktu zīmēšanai.
+<img src="js_2.jpg">
+<img src="js_3.jpg">
 
 ### Sadursmes detektēšana:
 - moveBall() funkcija pārbauda sadursmes starp bumbu un ķieģeļiem vai lāpstiņu.
+<img src="js_4.jpg">
+<img src="js_5.jpg">
 
 ### Galvenā zīmēšanas un spēles loģikas funkcija:
 - draw() funkcija zīmē visus spēles elementus un atjauno bumbas un lāpstiņas pozīcijas.
+<img src="js_4.jpg">
 
 ### Animācija:
 - requestAnimationFrame(update) nodrošina nepārtrauktu spēles animāciju, izsaucot update() funkciju katrā kadru.
+<img src="JS_1.jpg">
+<img src="js_2.jpg">
+<img src="js_3.jpg">
+<img src="js_4.jpg">
 
 ## Kopējā struktūra
 Kods ir labi strukturēts, ar skaidri definētām funkcijām, kas atbild par konkrētiem uzdevumiem. Tas ļauj viegli saprast un uzturēt spēles loģiku. Funkcijas ir sadalītas tā, lai katra atbildētu par noteiktu uzdevumu, piemēram, zīmēšanu, kustību vai sadursmju noteikšanu, kas padara kodu modulāru un atkārtoti lietojamu.

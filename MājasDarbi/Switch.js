@@ -28,3 +28,45 @@ function displayDay() {
             result.textContent = "Nepareizs ievads. Ievadiet skaitli no 1 līdz 7.";
     }
 }
+
+// Izdrukā skaitļus no 1 līdz 5
+for (let i = 1; i <= 5; i++) {
+    console.log(i);
+}
+
+// Izdrukā skaitļus no 1 līdz 5
+let i = 1;
+while (i <= 5) {
+    console.log(i);
+    i++;
+}
+
+// Funkcija, kas saskaita divus skaitļus
+function saskaitīt(a, b) {
+    return a + b;
+}
+
+console.log(saskaitīt(3, 4)); // Izdrukā 7
+
+
+// Anonīma funkcija, kas saskaita divus skaitļus
+let saskaitītAnonīmi = function(a, b) {
+    return a + b;
+};
+
+console.log(saskaitītAnonīmi(3, 4)); // Izdrukā 7
+
+// Anonīma funkcija piešķirta mainīgajam
+let saskaitītAnonīmiNosaukts = function(a, b) {
+    return a + b;
+};
+
+console.log(saskaitītAnonīmiNosaukts(3, 4)); // Izdrukā 7
+
+// Funkcija, kas saskaita divus skaitļus, izmantojot bultas funkciju
+let saskaitītArrow = (a, b) => a + b;
+
+console.log(saskaitītArrow(3, 4)); // Izdrukā 7
+
+// Funkcijas izsaukšana ar konkrētiem argumentiem
+console.log(saskaitīt(5, 6)); // Izdrukā 11
