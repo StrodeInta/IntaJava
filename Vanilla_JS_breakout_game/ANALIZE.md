@@ -48,6 +48,7 @@ Nosacījuma operatori tiek plaši izmantoti, lai kontrolētu spēles loģiku:
 - if (brick.visible): Pārbauda, vai ķieģelis ir redzams un vai tam ir notikusi sadursme ar bumbu.
 - if (score % (brickRowCount * brickColumnCount) === 0): Pārbauda, vai visi ķieģeļi ir iznīcināti.
 <img src="js_5.jpg">
+<img src="js_6.jpg">
 
 ### Spēles beigas:
 - if (ball.y + ball.size > canvas.height): Pārbauda, vai bumba sasniedz apakšējo robežu, kas norāda uz zaudējumu.
@@ -101,6 +102,13 @@ Cikla operatori tiek izmantoti, lai iterētu caur ķieģeļiem un veiktu zīmē�
 ## Darbību secība (algoritms, biznesa loģika)
 ### Inicializācija:
 - Inicializē mainīgos un iestata sākotnējos spēles parametrus (bumbas, lāpstiņas pozīcijas, ķieģeļi).
+<h4>DOM elementu iegūšanas un sākotnējās spēles stāvokļa konfigurēšanas. Šeit ir kods, kas attiecas uz inicializācijas procesu:</h4>
+<h4>Bumbas īpašības</h4>
+<h4>Lāpstiņas īpašības</h4>
+<img src="js_1.jpg">
+<h4>Ķieģeļu īpašības</h4>
+<h4>Ķieģeļu ģenerēšana</h4>
+<img src="js_2.jpg">
 
 ### Notikumu klausītāji:
 - Pievieno klausītājus bultiņu taustiņu nospiešanai un atlaišanai.
