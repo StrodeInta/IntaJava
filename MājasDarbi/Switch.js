@@ -70,3 +70,15 @@ console.log(saskaitītArrow(3, 4)); // Izdrukā 7
 
 // Funkcijas izsaukšana ar konkrētiem argumentiem
 console.log(saskaitīt(5, 6)); // Izdrukā 11
+
+// Objekts ar datiem
+let persona = {
+    vārds: "Jānis",
+    vecums: 30
+};
+
+// Pagaidu papildu references izveidošana
+let { vārds, vecums } = persona;
+
+console.log(vārds); // Izdrukā "Jānis"
+console.log(vecums); // Izdrukā 30

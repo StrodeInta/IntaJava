@@ -46,18 +46,25 @@
 <img src="Cikla operators (for).jpg">
 
 <p>ar cikla operatora (while) izmantošanu</p>
+<img src="Cikla operators (while).jpg">
 
 <p>ar funkcijas definēšanu (klasiskais paņēmiens - function vārds(argumenti) {darbības; return ...;})</p>
+<img src="Funkcijas definēšana (klasiskais paņēmiens).jpg">
 
 <p>ar funkcijas definēšanu (anonīma funkcija)</p>
+<img src="Funkcijas definēšana (anonīma funkcija).jpg">
 
 <p>ar funkcijas definēšanu (anonīmas funkcijas nosaukšana ar piešķiršanu)</p>
+<img src="Funkcijas definēšana (anonīmas funkcijas nosaukšana ar piešķiršanu).jpg">
 
 <p>ar funkcijas definēšanu (ar => paņēmienu)</p>
+<img src="Funkcijas definēšana (ar  paņēmienu).jpg">
 
 <p>ar funkcijas izsaukšanu (darbināšanu)</p>
+<img src="Funkcijas izsaukšana (darbināšana).jpg">
 
 <p>ar pagaidu papildu references izveidošanu eksistējošam objektam - kompaktākai rakstīšanai </p>
+<img src="kompaktākai rakstīšanai.jpg">
 
 </body>
 </html>
