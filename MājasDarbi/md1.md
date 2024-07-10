@@ -71,7 +71,8 @@
 
 <p>ar funkcijas definēšanu (ar => paņēmienu)</p>
 <img src="Funkcijas definēšana (ar  paņēmienu).jpg">
-
+<h6>developer.mozilla.org</h6>>
+<img src="paņēmienu.jpg">
 
 <p>ar funkcijas izsaukšanu (darbināšanu)</p>
 <img src="Funkcijas izsaukšana (darbināšana).jpg">
