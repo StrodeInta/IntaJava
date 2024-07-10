@@ -56,7 +56,7 @@
 
 <p>ar funkcijas definēšanu (klasiskais paņēmiens - function vārds(argumenti) {darbības; return ...;})</p>
 <img src="Funkcijas definēšana (klasiskais paņēmiens).jpg">
-<h6>www.w3schools.com/</h6>>
+<h6>view-source:https://www.draugiem.lv/?login=0</h6>>
 <img src="klasiskais.jpg">
 
 <p>ar funkcijas definēšanu (anonīma funkcija)</p>
@@ -67,7 +67,7 @@
 <p>ar funkcijas definēšanu (anonīmas funkcijas nosaukšana ar piešķiršanu)</p>
 <img src="Funkcijas definēšana (anonīmas funkcijas nosaukšana ar piešķiršanu).jpg">
 <h6>www.w3schools.com/</h6>>
-<img src="whileW3.jpg">
+<img src="anonims.jpg">
 
 <p>ar funkcijas definēšanu (ar => paņēmienu)</p>
 <img src="Funkcijas definēšana (ar  paņēmienu).jpg">
